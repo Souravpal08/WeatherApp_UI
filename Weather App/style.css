@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color:navajowhite;
+    background-image:url('https://images.unsplash.com/photo-1544453850-ea0e8a9f2b68?q=80&w=1974&&fit=landscape&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D/1600x900/landscape');
+    font-size: 115%;
+}
+.container{
+    background-color: azure;
+    padding: 2em;
+    margin: 18px;
+    border-radius: 25px;
+    max-width: 425px;
+    width: 100%;
+    margin: 1em;
+}
+
+.box{
+    
+   display: flex;
+   align-items: center; 
+   justify-content: space-between;
+   background-color: rgb(180, 180, 180);
+   border-radius: 25px;
+   padding-left: 20px;
+   margin-bottom: 25px;
+}
+input{
+    flex: 1;
+    outline: none;
+    border: none;
+    background: transparent;
+    padding: 10px;
+    margin-left: 10px;
+    font-weight: 15px;
+
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 10px 45px;
+    border-radius: 45px;
+   background-color: rgb(47, 102, 204);
+   font-size: 15px;
+   cursor: pointer;
+
+}
+button:hover{
+    background-color: rgb(28, 28, 198);
+}
+
+.box h2{
+    position: absolute;
+    margin-bottom: 10%;
+    display: flex;
+}
+.temp{
+    margin-bottom:10px ;
+    font-weight: 800;
+    font-size: 30px;
+
+}
+.description{
+    background-image: url('cloud image.webp');
+}
